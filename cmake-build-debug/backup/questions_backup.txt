@@ -1,0 +1,4 @@
+|Questions||Answer||Score|
+|This is an egg!||Yes||10|
+|How many nationalities are there in China？||56||6|
+|Will you have a happy New Year？||I don't know.||8|

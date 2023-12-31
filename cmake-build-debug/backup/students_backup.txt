@@ -1,0 +1,4 @@
+|Major||Class||Name||Grade||SN of answered question(Each SN is divided by '*')||Answers (Each answer is divided by '*')|
+|ai||8||linsnow||20||*1**2**3*||*yes**56**i don't know.*|
+|web||8||linsnow||95.5||*1**2**3*||*yes**56**i don't know.*|
+|cs||8||lin||0|||||

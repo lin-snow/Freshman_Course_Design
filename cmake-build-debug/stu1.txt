@@ -1,0 +1,2 @@
+|Major||Class||Name||SN of answered question(Each SN is divided by '*')||Answers (Each answer is divided by '*')|
+|cs||8||lin||*1*||*Yes*|

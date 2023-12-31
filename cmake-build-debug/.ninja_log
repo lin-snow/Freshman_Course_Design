@@ -1,0 +1,21 @@
+# ninja log v5
+1	83	7256538094721028	CMakeFiles/Project.dir/main.c.obj	e1cdc61488dfe240
+5	104	7256538094948490	CMakeFiles/Project.dir/menu.c.obj	1ddd7326fd8629f
+20	108	7256538094988507	CMakeFiles/Project.dir/linsnow.c.obj	93fc1e69da0db1fc
+10	112	7256538095033639	CMakeFiles/Project.dir/question_operation.c.obj	d675e052f5128a
+13	114	7256538095063718	CMakeFiles/Project.dir/student_operation.c.obj	b28c4a313deb60d9
+8	128	7256538095187929	CMakeFiles/Project.dir/data_utility.c.obj	d79b48e7ec347e7c
+17	143	7256538095338025	CMakeFiles/Project.dir/score_management.c.obj	5ba5a2e0624a7cce
+143	261	7256538096475965	Project.exe	f8f89faa19da9698
+3	697	7257135994209273	CMakeFiles/Project.dir/question_operation.c.obj	d675e052f5128a
+698	1144	7257135998612483	Project.exe	f8f89faa19da9698
+2	81	7257136673342623	CMakeFiles/Project.dir/question_operation.c.obj	d675e052f5128a
+81	185	7257136674352271	Project.exe	f8f89faa19da9698
+2	105	7257176851914182	CMakeFiles/Project.dir/score_management.c.obj	5ba5a2e0624a7cce
+106	212	7257176852947121	Project.exe	f8f89faa19da9698
+2	96	7257178772967150	CMakeFiles/Project.dir/score_management.c.obj	5ba5a2e0624a7cce
+96	205	7257178773992636	Project.exe	f8f89faa19da9698
+2	113	7257258566350446	CMakeFiles/Project.dir/data_utility.c.obj	d79b48e7ec347e7c
+113	251	7257258567679168	Project.exe	f8f89faa19da9698
+1	87	7257294176608153	CMakeFiles/Project.dir/student_operation.c.obj	b28c4a313deb60d9
+88	198	7257294177683210	Project.exe	f8f89faa19da9698
