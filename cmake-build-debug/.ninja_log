@@ -19,3 +19,9 @@
 113	251	7257258567679168	Project.exe	f8f89faa19da9698
 1	87	7257294176608153	CMakeFiles/Project.dir/student_operation.c.obj	b28c4a313deb60d9
 88	198	7257294177683210	Project.exe	f8f89faa19da9698
+99	739	7257383493604640	CMakeFiles/Project.dir/linsnow.c.obj	93fc1e69da0db1fc
+91	740	7257383493604640	CMakeFiles/Project.dir/question_operation.c.obj	d675e052f5128a
+95	743	7257383493629762	CMakeFiles/Project.dir/score_management.c.obj	5ba5a2e0624a7cce
+87	747	7257383493677914	CMakeFiles/Project.dir/data_utility.c.obj	d79b48e7ec347e7c
+83	749	7257383493702110	CMakeFiles/Project.dir/student_operation.c.obj	b28c4a313deb60d9
+2	750	7257383493714581	CMakeFiles/Project.dir/menu.c.obj	1ddd7326fd8629f

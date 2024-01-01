@@ -1,3 +1,6 @@
+#ifndef HEAD_score_management
+#define HEAD_score_management
+
 /* ---- Import Essential header files ---- */
 #include <stdio.h>
 #include <stdlib.h>
@@ -250,7 +253,7 @@ struct student * single_field_query()
     }
     /* 进行查找 */
     printf("Input the your information to query: ");
-    fgets(query_rule, sizeof(query_rule), stdin);
+    fgets(query_rule, 100, stdin);
     query_rule[strcspn(query_rule, "\n")] = '\0'; // 去除末尾的换行符
     /* 进行查询 */
     while(query_student_pointer != NULL)
@@ -365,10 +368,10 @@ struct student * multiple_field_query()
     }
     /* 输入查询信息 */
     printf("Input the your first information to query: ");
-    fgets(query_rule_one, sizeof(query_rule_one), stdin);
+    fgets(query_rule_one, 100, stdin);
     query_rule_one[strcspn(query_rule_one, "\n")] = '\0'; // 去除末尾的换行符
     printf("Input the your second information to query: ");
-    fgets(query_rule_two, sizeof(query_rule_two), stdin);
+    fgets(query_rule_two, 100, stdin);
     query_rule_two[strcspn(query_rule_two, "\n")] = '\0'; // 去除末尾的换行符
     /* 进行查询 */
     while(query_student_pointer != NULL)
@@ -714,3 +717,4 @@ void modify_grade()
 }
 /* --------------------------------------- 学生成绩修改结束 ------------------------------------- */
 
+#endif

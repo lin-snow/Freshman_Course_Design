@@ -1,3 +1,6 @@
+#ifndef HEAD_question_operation
+#define HEAD_question_operation
+
 /* ---- Import Essential header files ---- */
 #include <stdio.h>
 #include <stdlib.h>
@@ -193,3 +196,5 @@ void show_questions()
 }
 
 /* --------------------------------------- 查看题目结束 ------------------------------------- */
+
+#endif

@@ -4,6 +4,5 @@
 |Favorite color?||Blue||4.5|
 |Favorite color?||Pink||5|
 |This is an egg.||Yes||8|
-|Favorite workout?||Yoga.||9.5|
+|Favorite workout?||Soccer||9.6|
 |Favorite App?||spotify||6|
-

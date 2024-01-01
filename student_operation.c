@@ -1,9 +1,15 @@
+#ifndef HEAD_student_operation
+#define HEAD_student_operation
+
 /* ---- Import Essential header files ---- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "global_definition.h"
 #include "base.h"
+
+#include "data_utility.c"
+#include "menu.c"
 /* ----------------------------------------*/
 
 /* --------------------------------------- 学生登录开始 ------------------------------------- */
@@ -187,6 +193,8 @@ void answer_questions()
     return;
 }
 /* --------------------------------------- 学生答题结束 ------------------------------------- */
+
+#endif
 
 
 

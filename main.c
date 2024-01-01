@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include "global_definition.h"
 #include "base.h"
+
+#include "data_utility.c"
+#include "menu.c"
 /* -------------- 声明全局变量开始 ---------------------*/
 struct question_list *question_list; // 存储题目列表
 struct store_table *store_table; // 存储表格格式的开头一行的"Questions"、"Answer"、“Score”

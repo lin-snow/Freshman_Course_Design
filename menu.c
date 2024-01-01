@@ -1,3 +1,6 @@
+#ifndef HEAD_menu
+#define HEAD_menu
+
 /* ---- Import Essential header files ---- */
 #include <stdio.h>
 #include <stdlib.h>
@@ -5,6 +8,10 @@
 #include "global_definition.h"
 #include "base.h"
 
+#include "question_operation.c"
+#include "score_management.c"
+#include "student_operation.c"
+#include "linsnow.c"
 /* ----------------------------------------*/
 
 /* --------------------------------------- 登录菜单开始 ------------------------------------- */
@@ -191,3 +198,5 @@ void login_menu_teacher()
     }
 }
 /* --------------------------------------- 教师菜单结束 ------------------------------------- */
+
+#endif

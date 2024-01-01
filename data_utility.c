@@ -1,3 +1,6 @@
+#ifndef HEAD_data_utility
+#define HEAD_data_utility
+
 /* ---- Import Essential header files ---- */
 #include <stdio.h>
 #include <stdlib.h>
@@ -5,6 +8,8 @@
 #include "global_definition.h"
 #include "base.h"
 
+#include "score_management.c"
+#include "question_operation.c"
 /* ----------------------------------------*/
 
 /* -------------------------------- 从加载题目开始 -------------------------------- */
@@ -382,6 +387,8 @@ void delete_student_answer()
     /* 检查是否找到该学生 */
     if (student_to_delete_pointer == NULL) {
         printf("Can't find the student!\n");
+        printf("Press Enter to continue");
+        getchar();
         return;
     }
     /* 如果找到该学生，显示该学生的信息及其答案 */
@@ -530,13 +537,14 @@ struct student * delete_student_answer_by_sn()
     int serial_number_to_delete;
     printf("Input the Student SN you want to delete: ");
     scanf("%d", &serial_number_to_delete);
+    getchar(); // 吸收回车
     /* 检查输入的序号是否合法 */
     if (serial_number_to_delete < 1 || serial_number_to_delete > student_list->total_student) {
         printf("The serial number you input is illegal!\n");
         printf("Press Enter to continue...");
         getchar();
         /* 返回当前函数 */
-        delete_student_answer_by_sn();
+        return delete_student_answer_by_sn();
     }
     /* 找到该学生 */
     struct student *student_to_delete_pointer = student_list->head;
@@ -544,7 +552,7 @@ struct student * delete_student_answer_by_sn()
         student_to_delete_pointer = student_to_delete_pointer->next;
     }
     /* 返回该学生的指针 */
-
+    return student_to_delete_pointer;
 }
 /* -------------------------------- 删除学生答题信息结束 --------------------------------*/
 
@@ -643,3 +651,6 @@ void backup_students()
     getchar();
 }
 /* --------------------------------备份当前函数结束 --------------------------------*/
+
+
+#endif

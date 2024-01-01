@@ -1,0 +1,6 @@
+|Major||Class||Name||Grade||SN of answered question(Each SN is divided by '*')||Answers (Each answer is divided by '*')|
+|Computer Science||Sophomore||Emily||90||*1**3**4**5**6**7*||*Tea**Blue**Red**Yes**Basketball**Reeder*|
+|Biology||Freshman||Daniel||0||*1**2**7*||*tea**beach**Wechat*|
+|English||Senior||Liam||0||*2**3**5*||*Mountains**pink**yep*|
+|Chemistry||Junior||Noah||0||*3**4**5*||*pink**blue**No*|
+|Business||8||Ava||45||*1**2**3**4*||*coffee**beach**green**red*|

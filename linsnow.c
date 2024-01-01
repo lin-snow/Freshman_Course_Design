@@ -1,3 +1,6 @@
+#ifndef HEAD_linsnow
+#define HEAD_linsnow
+
 /* ---- Import Essential header files ---- */
 #include <stdio.h>
 #include <stdlib.h>
@@ -53,3 +56,6 @@ void print_author()
     printf("Press Enter to continue...");
     getchar(); //暂停显示图案
 }
+
+
+#endif
